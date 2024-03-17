@@ -34,6 +34,7 @@
     border-radius: 10rem;
     background-color: $neutrals-2;
     cursor: pointer;
+    transition: background-color .3s ease-in-out;
 
     &:hover {
       background-color: $neutrals-3;
