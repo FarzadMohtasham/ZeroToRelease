@@ -1,0 +1,42 @@
+@import "./../styles/variables";
+
+.NavBar {
+  padding: 2rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  :global(.nav-items) {
+    ul {
+      display: flex;
+      gap: 4rem;
+      list-style: none;
+
+      li a {
+        color: $neutrals-4;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color .3s ease-in-out;
+
+        &:hover {
+          color: $neutrals-5;
+        }
+      }
+    }
+  }
+
+  :global(.book-a-call-btn) {
+    border: $neutrals-4 solid .2rem;
+    padding: 1.2rem 1.6rem;
+    color: $neutrals-8;
+    font-weight: bold;
+    border-radius: 10rem;
+    background-color: $neutrals-2;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $neutrals-3;
+    }
+  }
+}

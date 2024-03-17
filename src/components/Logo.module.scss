@@ -1,0 +1,17 @@
+@import "./../styles/variables";
+
+.Logo {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+
+  img {
+    width: 3.6rem;
+  }
+
+  :global(.brand-title) {
+    color: white;
+    font-size: $font-size-headline-6;
+    font-weight: bold;
+  }
+}

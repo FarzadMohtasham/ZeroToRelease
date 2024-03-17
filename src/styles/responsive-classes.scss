@@ -1,0 +1,48 @@
+// Mobile
+@media only screen and (min-width: 0px) and (max-width: 37.5rem) {
+  .responsive-container {
+    width: 100%;
+    max-width: 70rem;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+// Tablet
+@media only screen and (min-width: 37.5rem) and (max-width: 102.4rem) {
+  .responsive-container {
+    width: 100%;
+    max-width: 96.4rem;
+  }
+
+  .hide-on-tablet {
+    display: none;
+  }
+}
+
+// Desktop and larger
+@media only screen and (min-width: 102.40rem) {
+  .responsive-container {
+    width: 100%;
+    max-width: 130rem;
+  }
+
+  .hide-on-desktop {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
