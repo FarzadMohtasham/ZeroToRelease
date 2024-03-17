@@ -6,10 +6,12 @@ export default function Logo(props: { logoSrc?: string | undefined; logoTitleSho
 
     return (
         <div className={styles.Logo}>
-            <img src={logoSrc} alt=""/>
-            {
-                logoTitleShow && <span className={'brand-title'}>ZeroToRelease</span>
-            }
+            <a href="#">
+                <img src={logoSrc} alt=""/>
+                {
+                    logoTitleShow && <span className={'brand-title'}>ZeroToRelease</span>
+                }
+            </a>
         </div>
     )
 }
