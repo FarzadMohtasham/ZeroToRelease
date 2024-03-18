@@ -1,0 +1,32 @@
+@import "./../styles/variables";
+
+.bottomNavBar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+
+  :global(.title) {
+    font-size: $font-size-body-1;
+    font-weight: bold;
+    color: $neutrals-4;
+  }
+
+  :global(.right-col-container) {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: white;
+
+    span {
+      color: $neutrals-4;
+      font-size: $font-size-button-2;
+      font-weight: bold;
+    }
+
+    a {
+      color: $red-1;
+      text-decoration: none;
+    }
+  }
+}
