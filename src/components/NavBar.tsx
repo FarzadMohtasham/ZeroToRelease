@@ -25,11 +25,17 @@ export default function NavBar() {
                 </ul>
             </div>
 
-            <a href={bookACallLink}>
+            <a className={'hide-on-mobile hide-on-tablet'} href={bookACallLink}>
                 <button className={'book-a-call-btn'}>
                     Book a Call
                 </button>
             </a>
+
+            <div className={'hamburger-button-container hide-on-desktop'}>
+                <img className={'hamburger-button'}
+                     src="/icons/hamburger-menu-button.svg"
+                     alt="hamburger menu button"/>
+            </div>
         </nav>
     )
 }

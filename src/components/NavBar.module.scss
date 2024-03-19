@@ -40,4 +40,14 @@
       background-color: $neutrals-3;
     }
   }
+
+  :global(.hamburger-button-container) {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    :global(.hamburger-button) {
+      width: 2.1rem;
+    }
+  }
 }

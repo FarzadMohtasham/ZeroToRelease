@@ -6,7 +6,7 @@
   }
 
   .hide-on-mobile {
-    display: none;
+    display: none !important;
   }
 
   .x-padding-on-mobile {
@@ -23,7 +23,7 @@
   }
 
   .hide-on-tablet {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -35,7 +35,7 @@
   }
 
   .hide-on-desktop {
-    display: none;
+    display: none !important;
   }
 }
 
