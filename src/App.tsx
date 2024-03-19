@@ -1,11 +1,11 @@
 import './App.scss'
-import './styles/global.scss'
-import './styles/variables.scss'
-import './styles/typography.scss'
-import './styles/responsive-classes.scss'
+import './assets/styles/global.scss'
+import './assets/styles/variables.scss'
+import './assets/styles/typography.scss'
+import './assets/styles/responsive-classes.scss'
 
-import NavBar from "./components/NavBar.tsx";
-import BottomNavBar from "./components/BottomNavBar.tsx";
+import NavBar from "./layout/NavBar.tsx";
+import BottomNavBar from "./layout/BottomNavBar.tsx";
 
 function App() {
     return (
