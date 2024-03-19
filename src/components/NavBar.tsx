@@ -1,6 +1,6 @@
 import styles from './NavBar.module.scss'
 import Logo from "./Logo.tsx";
-import navItems from "../data/nav-items.ts";
+import navItems from "../data/navItems.ts";
 
 const bookACallLink: string = '#'
 
