@@ -1,4 +1,4 @@
-const navItems = [
+const navItems: object[] = [
     {
         name: 'services',
         link: '#services'
