@@ -1,0 +1,37 @@
+@import "../../assets/styles/variables";
+
+.button {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hideBg {
+  background-color: unset !important;
+}
+
+.primary {
+  background-color: $red-1;
+  color: white;
+}
+
+.borderLess {
+  border: none;
+}
+
+.sizeMD {
+  padding: 1.2rem 2.4rem;
+}
+
+.rounded {
+  border-radius: 1rem;
+}
+
+.fullRounded {
+  border-radius: 50rem;
+}
+
+
+
+
+
+

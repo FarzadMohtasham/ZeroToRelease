@@ -1,0 +1,56 @@
+@import './../assets/styles/variables';
+
+.Hero {
+  background: linear-gradient(to bottom right, rgb(230, 230, 230), rgba(0, 0, 0, 0)), url("public/hero-img.png") center;
+  padding: 8.7rem;
+  border-radius: 2.4rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+
+  h1, p {
+    color: black;
+  }
+
+  h1 {
+    width: 70%;
+    line-height: 1.1;
+  }
+
+  p {
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-size: $font-size-body-1p5;
+  }
+}
+
+// Mobile
+@media only screen and (min-width: 0px) and (max-width: 37.5rem) {
+  .Hero {
+    padding: 4.8rem 2rem;
+
+    h1 {
+      font-size: $font-size-headline-2;
+    }
+  }
+}
+
+// Tablet
+@media only screen and (min-width: 37.5rem) and (max-width: 102.4rem) {
+  .Hero {
+    h1 {
+      font-size: $font-size-headline-1;
+    }
+  }
+}
+
+// Desktop and larger
+@media only screen and (min-width: 102.40rem) {
+  .Hero {
+    h1 {
+      font-size: $font-size-hero;
+    }
+  }
+}
