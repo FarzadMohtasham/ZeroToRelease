@@ -1,10 +1,11 @@
 import styles from './NavBar.module.scss'
 import Logo from "../components/Logo.tsx";
 import navItems from "../data/navItems.ts";
+import {JSX} from 'react'
 
 const bookACallLink: string = '#'
 
-export default function NavBar() {
+export default function NavBar(): JSX.Element {
     return (
         <nav className={`${styles.NavBar} responsive-container`}>
             <Logo/>

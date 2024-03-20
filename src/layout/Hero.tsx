@@ -1,7 +1,8 @@
 import styles from './Hero.module.scss'
 import Button from "../components/Button/Button.tsx";
+import {JSX} from 'react'
 
-export default function Hero() {
+export default function Hero(): JSX.Element {
     return (
         <section className={`${styles.Hero} responsive-container`}>
             <h1>

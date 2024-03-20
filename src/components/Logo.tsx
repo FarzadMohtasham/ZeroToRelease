@@ -1,6 +1,12 @@
 import styles from './Logo.module.scss'
+import {JSX} from 'react'
 
-export default function Logo(props: { logoSrc?: string | undefined; logoTitleShow?: boolean | undefined }) {
+interface logoProps {
+    logoSrc: string,
+    logoTitleShow: boolean
+}
+
+export default function Logo(props: logoProps): JSX.Element {
 
     const {logoSrc = 'ZeroToRelease-Logo-White.png ', logoTitleShow = true} = props
 

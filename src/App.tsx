@@ -1,3 +1,4 @@
+import {JSX} from 'react'
 import './App.scss'
 import './assets/styles/global.scss'
 import './assets/styles/variables.scss'
@@ -8,7 +9,8 @@ import NavBar from "./layout/NavBar.tsx";
 import BottomNavBar from "./layout/BottomNavBar.tsx";
 import Hero from "./layout/Hero.tsx";
 
-function App() {
+
+function App(): JSX.Element {
     return (
         <div className='app'>
             <NavBar/>
