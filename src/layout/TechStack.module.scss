@@ -1,0 +1,152 @@
+@import './../assets/styles/variables';
+
+.techStack {
+  padding-top: 10rem;
+  width: 100%;
+
+  h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 1.6rem;
+  }
+
+  p {
+    text-align: center;
+    font-size: $font-size-body-1;
+    color: $neutrals-4;
+    margin-bottom: 1.6rem;
+  }
+
+  :global(.tech-stacks) {
+    display: grid;
+
+    :global(.tech-stack) {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5rem 2.5rem;
+      background-color: $neutrals-2;
+      border-radius: 1.6rem;
+    }
+
+    :global(.react) {
+      grid-area: react;
+    }
+
+    :global(.next) {
+      grid-area: next;
+    }
+
+    :global(.typescript) {
+      grid-area: typescript;
+    }
+
+    :global(.tailwindcss) {
+      grid-area: tailwindcss;
+    }
+
+    :global(.git) {
+      grid-area: git;
+    }
+
+    :global(.remix) {
+      grid-area: remix;
+    }
+
+    :global(.docker) {
+      grid-area: docker;
+    }
+
+    :global(.jest) {
+      grid-area: jest;
+    }
+
+    :global(.sass) {
+      grid-area: sass;
+    }
+
+    :global(.figma) {
+      grid-area: figma;
+    }
+
+    img {
+      width: 8rem;
+      margin-bottom: 1.6rem;
+    }
+
+    :global(.stack-title) {
+      font-size: $font-size-body-2;
+      color: white;
+      margin-bottom: .4rem;
+    }
+
+    :global(.stack-desc) {
+      font-size: $font-size-caption-2;
+      color: $neutrals-4;
+      text-align: center;
+    }
+
+    :global(.stack-label) {
+      position: absolute;
+      left: .8rem;
+      top: .8rem;
+      color: $neutrals-4;
+      font-size: $font-size-hairline-2;
+      font-weight: bold;
+      padding: .8rem 1.2rem;
+      background-color: $neutrals-1;
+      border-radius: 10rem;
+    }
+  }
+}
+
+// Mobile
+@media only screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {
+  .techStack {
+    :global(.tech-stacks) {
+      gap: 1.5rem;
+      grid-template-areas:
+            'react next'
+            'typescript tailwindcss'
+            'git remix'
+            'docker jest'
+            'sass figma';
+    }
+  }
+}
+
+// Tablet
+@media only screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .techStack {
+    :global(.tech-stacks) {
+      gap: 2.5rem;
+      grid-template-areas:
+            'react react next next typescript typescript'
+            'tailwindcss tailwindcss git git remix remix'
+            'docker docker jest jest sass sass'
+            'figma figma figma figma figma figma';
+    }
+  }
+}
+
+// Desktop and larger
+@media only screen and (min-width: $desktop-min-width) {
+  .techStack {
+    :global(.tech-stacks) {
+      gap: 5rem;
+      grid-template-areas:
+            'react next typescript tailwindcss git'
+            'remix docker jest sass figma';
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

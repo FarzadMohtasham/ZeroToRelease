@@ -9,6 +9,7 @@ import NavBar from "./layout/NavBar.tsx";
 import BottomNavBar from "./layout/BottomNavBar.tsx";
 import Hero from "./layout/Hero.tsx";
 import Services from "./layout/Services.tsx";
+import TechStack from "./layout/TechStack.tsx";
 
 
 function App(): JSX.Element {
@@ -18,6 +19,7 @@ function App(): JSX.Element {
             <BottomNavBar/>
             <Hero/>
             <Services/>
+            <TechStack/>
 
             <br/><br/><br/><br/><br/><br/><br/>
         </div>
