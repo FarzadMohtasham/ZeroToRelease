@@ -8,6 +8,7 @@ import './assets/styles/responsive-classes.scss'
 import NavBar from "./layout/NavBar.tsx";
 import BottomNavBar from "./layout/BottomNavBar.tsx";
 import Hero from "./layout/Hero.tsx";
+import Services from "./layout/Services.tsx";
 
 
 function App(): JSX.Element {
@@ -16,6 +17,7 @@ function App(): JSX.Element {
             <NavBar/>
             <BottomNavBar/>
             <Hero/>
+            <Services/>
 
             <br/><br/><br/><br/><br/><br/><br/>
         </div>
