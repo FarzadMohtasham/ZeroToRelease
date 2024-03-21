@@ -1,5 +1,7 @@
+@import './variables';
+
 // Mobile
-@media only screen and (min-width: 0px) and (max-width: 37.5rem) {
+@media only screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {
   .responsive-container {
     width: 100%;
     max-width: 70rem;
@@ -16,7 +18,7 @@
 }
 
 // Tablet
-@media only screen and (min-width: 37.5rem) and (max-width: 102.4rem) {
+@media only screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
   .responsive-container {
     width: 100%;
     max-width: 96.4rem;
@@ -28,7 +30,7 @@
 }
 
 // Desktop and larger
-@media only screen and (min-width: 102.40rem) {
+@media only screen and (min-width: $desktop-min-width) {
   .responsive-container {
     width: 100%;
     max-width: 130rem;
@@ -40,14 +42,17 @@
 }
 
 
+// Mobile
+@media only screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {
 
+}
 
+// Tablet
+@media only screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
 
+}
 
+// Desktop and larger
+@media only screen and (min-width: $desktop-min-width) {
 
-
-
-
-
-
-
+}
