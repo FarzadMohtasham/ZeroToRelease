@@ -1,4 +1,9 @@
-const navItems: object[] = [
+type navItem = {
+    name: string
+    link: string
+}
+
+const navItems: navItem[] = [
     {
         name: 'services',
         link: '#services'

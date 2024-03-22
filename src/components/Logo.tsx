@@ -2,8 +2,8 @@ import styles from './Logo.module.scss'
 import {JSX} from 'react'
 
 interface logoProps {
-    logoSrc: string,
-    logoTitleShow: boolean
+    logoSrc?: string,
+    logoTitleShow?: boolean
 }
 
 export default function Logo(props: logoProps): JSX.Element {
