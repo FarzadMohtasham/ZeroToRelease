@@ -1,0 +1,78 @@
+@import './../assets/styles/variables';
+
+.projects {
+  text-align: center;
+  padding-top: 8rem;
+
+  h2 {
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: $neutrals-4;
+  }
+
+  :global(.projects-list) {
+    display: grid;
+    gap: 2rem;
+    width: 100%;
+    padding-top: 3rem;
+
+    :global(.project-1) {
+      grid-area: project-1;
+    }
+
+    :global(.project-2) {
+      grid-area: project-2;
+    }
+
+    :global(.project-3) {
+      grid-area: project-3;
+    }
+  }
+}
+
+// Mobile
+@media only screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {
+  .projects {
+    :global(.projects-list) {
+      grid-template-areas:
+          "project-1"
+          "project-2"
+          "project-3";
+    }
+  }
+}
+
+// Tablet
+@media only screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .projects {
+    :global(.projects-list) {
+      grid-template-areas:
+          "project-1 project-2"
+          "project-3 .";
+    }
+  }
+}
+
+// Desktop and larger
+@media only screen and (min-width: $desktop-min-width) {
+  .projects {
+    :global(.projects-list) {
+      grid-template-areas:
+          "project-1 project-2 project-3";
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
