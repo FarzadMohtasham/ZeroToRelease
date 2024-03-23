@@ -28,6 +28,12 @@
       padding: 5rem 2.5rem;
       background-color: $neutrals-2;
       border-radius: 1.6rem;
+      transition: all .3s ease;
+
+      &:hover {
+        transform: translateY(-1.25rem);
+        background-color: $neutrals-3;
+      }
     }
 
     :global(.react) {
@@ -105,7 +111,7 @@
 @media only screen and (min-width: $mobile-min-width) and (max-width: $mobile-max-width) {
   .techStack {
     :global(.tech-stacks) {
-      gap: 1.5rem;
+      gap: 1.75rem;
       grid-template-areas:
             'react next'
             'typescript tailwindcss'
@@ -120,7 +126,7 @@
 @media only screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
   .techStack {
     :global(.tech-stacks) {
-      gap: 2.5rem;
+      gap: 2rem;
       grid-template-areas:
             'react react next next typescript typescript'
             'tailwindcss tailwindcss git git remix remix'
@@ -134,7 +140,7 @@
 @media only screen and (min-width: $desktop-min-width) {
   .techStack {
     :global(.tech-stacks) {
-      gap: 5rem;
+      gap: 2rem;
       grid-template-areas:
             'react next typescript tailwindcss git'
             'remix docker jest sass figma';
