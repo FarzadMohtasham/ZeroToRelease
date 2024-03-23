@@ -15,7 +15,7 @@ export default function Project(props: ProjectProps): JSX.Element {
     // }: projectProps = props
 
     return (
-        <div className={`${styles.projectContainer} project-${props.index}`}>
+        <div className={`project ${styles.projectContainer} project-${props.index}`}>
             <img className={'bg-img'} src={props.imgSrc} alt=""/>
                 <img className={'logo-img'} src={props.logoSrc} alt=""/>
             <span className="title">{props.title}</span>

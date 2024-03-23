@@ -19,6 +19,14 @@
     width: 100%;
     padding-top: 3rem;
 
+    :global(.project) {
+      transition: transform .3s ease;
+
+      &:hover {
+        transform: translateY(-1.5rem);
+      }
+    }
+
     :global(.project-1) {
       grid-area: project-1;
     }
