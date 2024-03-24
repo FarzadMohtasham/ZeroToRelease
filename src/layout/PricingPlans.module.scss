@@ -1,0 +1,18 @@
+@import './../assets/styles/variables';
+
+.pricingPlans {
+  padding-top: 8rem;
+
+  h2, p {
+    text-align: center;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  p {
+    color: $neutrals-4;
+    font-size: $font-size-body-1;
+  }
+}

@@ -11,6 +11,7 @@ import Hero from "./layout/Hero.tsx";
 import Services from "./layout/Services.tsx";
 import TechStack from "./layout/TechStack.tsx";
 import Projects from "./layout/Projects.tsx";
+import PricingPlans from "./layout/PricingPlans.tsx";
 
 
 function App(): JSX.Element {
@@ -22,6 +23,7 @@ function App(): JSX.Element {
             <Services/>
             <TechStack/>
             <Projects/>
+            <PricingPlans/>
 
             <br/><br/><br/><br/><br/><br/><br/>
         </div>
