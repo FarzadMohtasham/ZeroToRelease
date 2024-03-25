@@ -1,6 +1,6 @@
 import styles from './NavBar.module.scss'
 import Logo from "../components/Logo.tsx";
-import navItems from "../data/navItems.ts";
+import navItemsData from "../data/navItems.data.ts";
 import {JSX} from 'react'
 
 const bookACallLink: string = '#'
@@ -13,7 +13,7 @@ export default function NavBar(): JSX.Element {
             <div className={'nav-items hide-on-mobile hide-on-tablet'}>
                 <ul>
                     {
-                        navItems.map((item, index) => {
+                        navItemsData.map((item, index) => {
                             return (
                                 <li className={'nav-item'} key={item.name + index}>
                                     <a href={item.link}>

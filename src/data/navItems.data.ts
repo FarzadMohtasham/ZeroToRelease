@@ -3,7 +3,7 @@ type navItem = {
     link: string
 }
 
-const navItems: navItem[] = [
+const navItemsData: navItem[] = [
     {
         name: 'services',
         link: '#services'
@@ -26,4 +26,4 @@ const navItems: navItem[] = [
     },
 ]
 
-export default navItems
+export default navItemsData

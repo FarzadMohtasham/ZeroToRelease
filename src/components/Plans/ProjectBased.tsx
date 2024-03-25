@@ -1,9 +1,9 @@
 import {JSX} from 'react'
 import styles from './ProjectBased.module.scss'
 import {ProjectBased as ProjectBasedProp} from './../../interface/ProjectBased.interface.ts'
-import seaGreenIcon from "../../../public/icons/tick-sea-green.svg"
-import heliotropeIcon from "../../../public/icons/tick-heliotrope.svg"
-import maizeIcon from '../../../public/icons/tick-maize.svg'
+import seaGreenIcon from "/icons/tick-sea-green.svg"
+import heliotropeIcon from "/icons/tick-heliotrope.svg"
+import maizeIcon from '/icons/tick-maize.svg'
 
 export default function ProjectBased(props: ProjectBasedProp): JSX.Element {
     const colorStyle: { color: string } = {

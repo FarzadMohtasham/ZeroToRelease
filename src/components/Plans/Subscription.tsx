@@ -1,8 +1,8 @@
 import {JSX} from 'react'
 import styles from './Subscription.module.scss'
 import {SubscriptionPricing} from './../../interface/Subscription.interface.ts'
-import seaGreenIcon from '../../../public/icons/tick-sea-green.svg'
-import heliotropeIcon from '../../../public/icons/tick-heliotrope.svg'
+import seaGreenIcon from '/icons/tick-sea-green.svg'
+import heliotropeIcon from '/icons/tick-heliotrope.svg'
 
 interface SubscriptionProps extends SubscriptionPricing {
 }

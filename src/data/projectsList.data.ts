@@ -1,6 +1,6 @@
 import { ProjectProps } from './../interface/ProjectProps.interface.ts'
 
-const projectsList: ProjectProps[] = [
+const projectsListData: ProjectProps[] = [
     {
         index: 1,
         title: 'CoinTracker',
@@ -30,4 +30,4 @@ const projectsList: ProjectProps[] = [
     }
 ]
 
-export default projectsList
+export default projectsListData

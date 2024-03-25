@@ -5,7 +5,7 @@ import Subscription from "../components/Plans/Subscription.tsx";
 import PlansCTA from "../components/Plans/PlansCTA.tsx";
 import {subscriptionPricingData, planOptions} from "../data/subscriptionPricing.data.ts";
 import {SubscriptionPricing} from "../interface/Subscription.interface.ts";
-import maizeIcon from './../../public/icons/tick-maize.svg'
+import maizeIcon from '/icons/tick-maize.svg'
 import {ProjectBasedPricingData} from "../data/subscriptionPricing.data.ts";
 
 

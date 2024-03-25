@@ -1,7 +1,7 @@
 import {JSX} from 'react'
 import styles from './Projects.module.scss'
 import Project from "../components/Project/Project.tsx";
-import ProjectsList from "../data/projectsList.ts";
+import ProjectsList from "../data/projectsList.data.ts";
 import {ProjectProps} from "../interface/ProjectProps.interface.ts";
 
 export default function Projects(): JSX.Element {
