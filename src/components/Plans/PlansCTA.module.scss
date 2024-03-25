@@ -1,0 +1,54 @@
+@import './../../assets/styles/variables';
+
+.plansCTA {
+  width: 100%;
+  background-color: $neutrals-2;
+  border: .1rem solid $neutrals-3;
+  padding: 1.75rem 2.5rem;
+  border-radius: 1.25rem;
+
+  :global(.title) {
+    color: $red-dark;
+    font-size: $font-size-body-2;
+    font-weight: bold;
+    display: block;
+    margin-bottom: .5rem;
+  }
+
+  :global(.desc) {
+    display: block;
+    color: $neutrals-4;
+    font-size: $font-size-caption-1;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    display: block;
+    padding: 1.25rem 0;
+    color: $neutrals-5;
+    text-decoration: none;
+    background-color: $neutrals-3;
+    text-align: center;
+    border-radius: 1rem;
+    transition: background-color .3s ease-in-out;
+    font-weight: bold;
+    font-size: $font-size-hairline-1;
+
+    &:hover {
+      background-color: $neutrals-3-5;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

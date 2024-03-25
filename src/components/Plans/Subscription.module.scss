@@ -1,0 +1,66 @@
+@import './../../assets/styles/variables';
+
+.subscription {
+  padding: 1.75rem 2.5rem;
+  border: .1rem solid $neutrals-3;
+
+  :global(.title) {
+    color: $secondary-1;
+    font-size: $font-size-body-2;
+    font-weight: bold;
+  }
+
+  :global(.price) {
+    color: $neutrals-8;
+    font-size: $font-size-headline-3;
+  }
+
+  :global(.desc) {
+    color: $neutrals-6;
+    font-size: $font-size-caption-2;
+  }
+
+  :global(ul.options-list) {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    :global(li.option) {
+      display: flex;
+      align-items: center;
+      color: $neutrals-5;
+      font-size: $font-size-caption-2;
+    }
+  }
+
+  :global(a.cta) {
+    display: block;
+    padding: 1.25rem 0;
+    color: $neutrals-5;
+    text-decoration: none;
+    background-color: $neutrals-3;
+    text-align: center;
+    border-radius: 1rem;
+    transition: background-color .3s ease-in-out;
+
+    &:hover {
+      background-color: $neutrals-3-5;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

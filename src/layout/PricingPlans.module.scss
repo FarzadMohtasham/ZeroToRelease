@@ -2,6 +2,9 @@
 
 .pricingPlans {
   padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   h2, p {
     text-align: center;
@@ -14,5 +17,101 @@
   p {
     color: $neutrals-4;
     font-size: $font-size-body-1;
+    margin-bottom: 3.5rem;
+  }
+
+  :global(.tab-options) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-bottom: 2.5rem;
+
+    :global(.tab-btn) {
+      background-color: $neutrals-3;
+      border: none;
+      padding: .6rem 1.2rem;
+      border-radius: 10rem;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+    }
+
+    :global(.selected) {
+      color: white;
+    }
+
+    :global(.not-selected) {
+      background-color: $neutrals-1;
+      color: $neutrals-4;
+
+      &:hover {
+        background-color: $neutrals-2;
+      }
+    }
+  }
+
+  :global(.tab-content) {
+    width: 52rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    :global(.subscriptions) {
+      :global(.options-wrapper) {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 2rem;
+
+        :global(.subscription-option) {
+          background-color: $neutrals-2;
+          border-radius: 1.25rem;
+        }
+      }
+
+      :global(.info-wrapper) {
+        background-color: $neutrals-2;
+        width: 100%;
+        border-radius: 1.25rem;
+        padding: 1.75rem 2.5rem;
+        border: .1rem solid $neutrals-3;
+
+        :global(.plans-info) {
+          h6 {
+            color: white;
+            margin-bottom: 2.5rem;
+          }
+
+          :global(.info-options) {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            li {
+              display: flex;
+              align-items: center;
+              color: $neutrals-5;
+              font-size: $font-size-caption-2;
+            }
+          }
+        }
+      }
+    }
+
+    :global(.project-based-prices) {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
   }
 }
+
+
+
+
+
+
+
+
+
+
