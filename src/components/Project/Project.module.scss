@@ -8,9 +8,13 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 3rem;
+  border: .1rem solid $neutrals-3;
 
   :global(.bg-img) {
     width: 100%;
+    height: 22rem;
+    object-fit: cover;
+    border-radius: 3.1rem 3.1rem 0 0;
   }
 
   :global(.logo-img) {

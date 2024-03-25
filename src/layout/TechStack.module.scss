@@ -29,6 +29,7 @@
       background-color: $neutrals-2;
       border-radius: 1.6rem;
       transition: all .3s ease;
+      border: .1rem solid $neutrals-3;
 
       &:hover {
         transform: translateY(-1.25rem);
