@@ -6,23 +6,23 @@ type navItem = {
 const navItemsData: navItem[] = [
     {
         name: 'services',
-        link: '#services'
+        link: 'services'
     },
     {
         name: 'works',
-        link: '#works'
+        link: 'projects'
     },
     {
         name: 'approach',
-        link: '#approach'
+        link: 'approach'
     },
     {
         name: 'membership',
-        link: '#membership'
+        link: 'pricing-plans'
     },
     {
         name: 'pricing',
-        link: '#pricing'
+        link: 'pricing-plans'
     },
 ]
 

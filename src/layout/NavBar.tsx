@@ -2,6 +2,7 @@ import styles from './NavBar.module.scss'
 import Logo from "../components/Logo.tsx";
 import navItemsData from "../data/navItems.data.ts";
 import {JSX} from 'react'
+import scrollTo from "../utils/scrollTo.tsx";
 
 const bookACallLink: string = '#'
 
@@ -16,7 +17,7 @@ export default function NavBar(): JSX.Element {
                         navItemsData.map((item, index) => {
                             return (
                                 <li className={'nav-item'} key={item.name + index}>
-                                    <a href={item.link}>
+                                    <a onClick={() => scrollTo(item.link)}>
                                         {item.name}
                                     </a>
                                 </li>

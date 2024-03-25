@@ -15,7 +15,7 @@ export default function PricingPlans(): JSX.Element {
     const [selectedTab, setSelectedTab] = useState(tabsValue[0])
 
     return (
-        <section className={`${styles.pricingPlans} responsive-container x-padding-on-mobile`}>
+        <section id={'pricing-plans'} className={`${styles.pricingPlans} responsive-container x-padding-on-mobile`}>
             <h2>Pricing Plans</h2>
             <p>Fast turnaround. No surprises. Cancel anytime.</p>
 

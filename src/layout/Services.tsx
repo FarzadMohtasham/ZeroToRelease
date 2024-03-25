@@ -27,7 +27,7 @@ const servicesList: service[] = [
 
 export default function Services(): JSX.Element {
     return (
-        <section className={`${styles.services} responsive-container`}>
+        <section id={'services'} className={`${styles.services} responsive-container`}>
             <h2>Services</h2>
             <p>We’ve built our company on three pillars of every digital product development. Design, Build, Launch.</p>
 

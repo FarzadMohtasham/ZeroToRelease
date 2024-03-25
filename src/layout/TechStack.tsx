@@ -74,7 +74,7 @@ const techStacksList: techStack[] = [
 
 export default function TechStack(): JSX.Element {
     return (
-        <section className={`${styles.techStack} responsive-container`}>
+        <section id={'approach'} className={`${styles.techStack} responsive-container`}>
             <h2>Tech Stack</h2>
             <p>We are using most powerful and practical tools and frameworks to implement UI Design and Software's in a
                 pixel-perfect way</p>

@@ -18,6 +18,7 @@
         text-decoration: none;
         font-weight: bold;
         transition: color .3s ease-in-out;
+        cursor: pointer;
 
         &:hover {
           color: $neutrals-5;
